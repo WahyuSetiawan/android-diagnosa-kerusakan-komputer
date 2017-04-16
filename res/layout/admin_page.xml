@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical" >
+
+        <ImageButton android:id="@+id/menu_pakar_daftar_kerusakan"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:background="@drawable/ic_list_kerusakan"
+            android:contentDescription="@string/conten_description_kerusakan" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Daftar Kerusakan" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <ImageButton android:id="@+id/menu_pakar_daftar_gejala"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:background="@drawable/ic_list_gejala"
+            android:contentDescription="@string/conten_description_kerusakan" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Daftar Gejala" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|left"
+        android:orientation="vertical" >
+
+        <ImageButton android:id="@+id/menu_pakar_kerusakan"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:background="@drawable/ic_kerusakan"
+            android:contentDescription="@string/conten_description_kerusakan" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Mengatur Pakar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|right"
+        android:orientation="vertical" >
+ 
+        <ImageButton android:id="@+id/menu_pakar_peraturan_admin"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:background="@drawable/ic_pengaturan_admin"
+            android:contentDescription="@string/conten_description_kerusakan" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Peraturan Admin" />
+    </LinearLayout>
+
+</RelativeLayout>

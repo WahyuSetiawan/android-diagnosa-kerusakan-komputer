@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Diagnosa Kerusakan Komputer</string>
+    <string name="Diagnosa">Diagnosa</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="app_name_application">Kerusakan Komputer</string>
+    <string name="conten_description_kerusakan">Kerusakan</string>
+    <string name="conten_description_peraturan">Peraturan</string>
+    <string name="title_activity_knowledge_base_management">KnowledgeBaseManagement</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_loading">Loading</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
